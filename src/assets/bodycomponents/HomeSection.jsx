@@ -15,7 +15,6 @@ function HomeSection(props) {
         </div>
     </div>
 </section>)
-
 }
 
 export default HomeSection 

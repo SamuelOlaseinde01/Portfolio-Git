@@ -49,7 +49,6 @@ p+img {
     justify-content: center;
     padding: 20px;
     align-items: center;
-
 }
 
 .skills-icon {
@@ -84,6 +83,17 @@ li>a {
     align-items: center;
     justify-content: center;
     background-color: black;
+}
+
+.icon {
+    font-size: 1.5em;
+    color: black;
+}
+
+.icons-fa {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .img {
@@ -193,7 +203,7 @@ h1 {
 
 @media (max-width: 800px) {
     .nav {
-        transform: translateX(-800px);
+        transform: translateX(-900px);
         position: fixed;
         top: 0;
         opacity: 0;
