@@ -5,10 +5,13 @@ function HomeSection(props) {
     return (
     <section className="section-home" id="section-home">
     <div className={props.hamburger ? "container" : "container inner"}>
+    <img src="/images/Smilingman.jpeg" alt="" srcset="" className="smiling-img"/>
         <div className="h1andp">
-            <img src="/images/Smilingman.jpeg" alt="" srcset="" className="smiling-img"/>
-            <h1>Hello</h1>
-            <p>My name is Samuel, I am a Web developer</p>
+            <h1 className="h1ofp">Hello</h1>
+            <div className="ps">
+                <p>My name is Samuel</p>
+                <p> I am a Web developer</p>
+            </div>
         </div>
     </div>
 </section>)

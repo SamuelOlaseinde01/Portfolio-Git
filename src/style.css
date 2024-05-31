@@ -84,7 +84,6 @@ li>a {
     align-items: center;
     justify-content: center;
     background-color: black;
-    color: darkcyan;
 }
 
 .img {
@@ -207,17 +206,28 @@ h1 {
 
     .smiling-img {
         border-radius: 50%;
-        width: 50%;
+        width: 100px;
         height: 100px;
         position: absolute;
-        top: -50px;
+        top: -60px;
         display: flex;
         justify-self: center;
+        z-index: 99999;
+    }
+
+    .h1ofp {
+        font-size: 3.5em;
+    }
+
+    .ps {
+        display: flex;
+        flex-direction: column;
+        color: rgb(88, 87, 87);
     }
 
     .h1andp {
-        width: 50%;
-        padding: 50px 50px 50px 50px;
+        width: 80%;
+        padding: 40px;
         margin: 10px;
         height: 100%;
         text-align: center;
@@ -228,6 +238,7 @@ h1 {
 
     .container {
         display: flex;
+        position: relative;
         justify-content: center;
         align-items: center;
         animation-name: animatename;
