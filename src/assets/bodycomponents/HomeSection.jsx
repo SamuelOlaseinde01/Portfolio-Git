@@ -4,7 +4,7 @@ function HomeSection(props) {
     console.log(props)
     return (
     <section className="section-home" id="section-home">
-    <div className={props.hamburger ? "container" : "container inner"}>
+    <div className={props.hamburger ? "container inner" : "container"}>
     <img src="/images/Smilingman.jpeg" alt="" srcset="" className="smiling-img"/>
         <div className="h1andp">
             <h1 className="h1ofp">Hello</h1>

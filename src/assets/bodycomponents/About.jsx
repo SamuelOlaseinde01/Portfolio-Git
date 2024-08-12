@@ -1,4 +1,13 @@
 import React from "react";
+import useEmblaCarousel from "embla-carousel-react";
+
+function Carousel() {
+    const [emblaRef] = useEmblaCarousel()
+    return (
+    <div ref={emblaRef}>
+        <h1>Carousel</h1>
+    </div>)
+}
 
 function About() {
     return (
@@ -46,7 +55,6 @@ function About() {
         </div>
     </div>
 </section>
-)
-}
+)}
 
 export default About
